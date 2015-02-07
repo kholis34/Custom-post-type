@@ -15,10 +15,10 @@
 
       )
     );
-    $salesevents = new WP_Query( $args );
-    if( $salesevents->have_posts() ) {
-      while( $salesevents->have_posts() ) {
-        $salesevents->the_post();
+    $pameran = new WP_Query( $args );
+    if( $pameran->have_posts() ) {
+      while( $pameran->have_posts() ) {
+        $pameran->the_post();
         ?>
     <div class="large-12 columns maincontent">
       <h2 class="artikel"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>

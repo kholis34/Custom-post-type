@@ -10,7 +10,7 @@
   <div class="row content">
    <?php
     $args = array(
-      'post_type' => 'salesevents',
+      'post_type' => 'pameran',
       'tax_query' => array(
 
       )
